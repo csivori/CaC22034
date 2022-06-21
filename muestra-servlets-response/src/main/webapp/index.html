@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario Servlet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="STYLESHEET" href="./css/muestra-servlets-request.css" />
+    </head>
+    <body>
+        <h1>Prueba de Formulario con Servlet Java (Método POST)</h1>
+        <form name="form1" action="/muestra-servlets-request/procesar-form" method="POST">
+            <input type="text" id="nombre1" name="nombre" placeholder="Nombre"><br><br>
+            <input type="text" id="apellido1" name="apellido" placeholder="Apellido"><br><br>
+            <label for="mensaje1">Tu Mensaje:</label><br>
+            <textarea id="mensaje1" name="mensaje" rows="5" cols="30">Mensaje a Enviar</textarea><br><br>
+            <input type="submit" class="btn"><input type="reset">
+        </form>
+        <hr>
+        <h1>Prueba de Formulario con Servlet Java (Método GET)</h1>
+        <form name="form1" action="/muestra-servlets-request/procesar-form" method="GET">
+            <input type="text" id="nombre2" name="nombre" placeholder="Nombre"><br><br>
+            <input type="text" id="apellido2" name="apellido" placeholder="Apellido"><br><br>
+            <label for="mensaje2">Tu Mensaje:</label><br>
+            <textarea id="mensaje2" name="mensaje" rows="5" cols="30">Mensaje a Enviar</textarea><br><br>
+            <input type="submit" class="btn"><input type="reset">
+        </form>
+        <hr>
+    </body>
+</html>

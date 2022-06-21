@@ -1,0 +1,8 @@
+html {font-family: "Arial", sans-serif;}
+h1{font-size: 1.2rem;}
+.btn {color: black; margin: 0px 20px;}
+.btnOk {background-color: #66ff66;}
+.btnCancel {background-color: #ff6666;}
+.btnHome {background-color: gray;}
+.btn a {text-decoration:none;}
+
